@@ -1,0 +1,35 @@
+{
+  "name": "compara-online",
+  "version": "1.0.0",
+  "description": "Compara Online test for Backend Role",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crodriguez85/comparaonline-backend-test.git"
+  },
+  "author": "Cristian Rodriguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crodriguez85/comparaonline-backend-test/issues"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node src",
+    "after-30-days": "npm run start && node dist/index.js",
+    "dev": "npm run test && npm run start && node dist/index.js"
+  },
+  "homepage": "https://github.com/crodriguez85/comparaonline-backend-test#readme",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-cli": "^6.26.0",
+    "chai": "^4.1.2",
+    "eslint": "^4.15.0",
+    "eslint-plugin-babel": "^4.1.2",
+    "jest": "^24.8.0",
+    "mocha": "^4.0.1"
+  },
+  "dependencies": {
+    "babel-eslint": "^8.2.1"
+  }
+}
