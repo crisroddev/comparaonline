@@ -20,16 +20,9 @@
   },
   "homepage": "https://github.com/crodriguez85/comparaonline-backend-test#readme",
   "devDependencies": {
-    "@babel/core": "^7.5.5",
-    "@babel/preset-env": "^7.5.5",
-    "babel-cli": "^6.26.0",
     "chai": "^4.1.2",
-    "eslint": "^4.15.0",
-    "eslint-plugin-babel": "^4.1.2",
-    "jest": "^24.8.0",
     "mocha": "^4.0.1"
   },
   "dependencies": {
-    "babel-eslint": "^8.2.1"
   }
 }
