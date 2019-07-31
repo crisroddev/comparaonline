@@ -7,7 +7,7 @@ Test: npm test
 30 Days: npm start after-30-days
 Dev: npm run dev
 ```
-s
+
 ## ComparaOnline Test Requirements Specification
 
 Hi, welcome to the Software Engineer CO Test. In this test we expect to see your approach to refactor a legacy code into a testeable, object oriented solution.
